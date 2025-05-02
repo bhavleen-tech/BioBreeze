@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce | Bio-Breeze</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #2a9d8f;
+            color: white;
+        }
+
+        .sub-heading {
+            text-align: center;
+            color: #264653;
+            margin-bottom: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-details h3 {
+            color: #2a9d8f;
+            margin: 10px 0;
+        }
+
+        .product-details p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #2a9d8f;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #21867a;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Bio-Breeze's E-commerce Website</h1>
+        <h2>Sustainable Solutions for Healthy Breathing</h2>
+    </div>
+
+    <div class="container">
+        <h2 class="sub-heading">Explore Our Product Range</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="basic.jpg" alt="Basic Model">
+                <div class="product-details">
+                    <h3>Basic Model</h3>
+                    <p>Coverage: 200 sq. ft.<br> Algae Filter | Smart Features | ₹2,999</p>
+                    <a href="https://www.google.com" target="_blank" class="btn">Add Prediction & Buy Now</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="algae3.jpg" alt="Algae Model">
+                <div class="product-details">
+                    <h3>Algae Model</h3>
+                    <p>Coverage: 400 sq. ft.<br> Algae Filter | Timer Control | ₹6,999</p>
+                    <a href="https://www.google.com" target="_blank" class="btn">Add Prediction & Buy Now</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="algae1.jpg" alt="Advanced Model">
+                <div class="product-details">
+                    <h3>Advanced Model</h3>
+                    <p>Coverage: 800 sq. ft.<br> Algae Filter | App Control | ₹9,999</p>
+                    <a href="https://www.google.com" target="_blank" class="btn">Add Prediction & Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
